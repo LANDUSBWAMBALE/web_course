@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agri-Business</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f3f4f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        .header {
+            background-color: #008000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        /* Product section*/
+        .product-section {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap; 
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .product-info h2 {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .product-info p {
+            color: #666;
+        }
+
+        /* Table */
+        .table-section {
+            max-width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .table-section h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #008000;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .table th {
+            background-color: #f4f4f4;
+            color: #008000;
+        }
+
+        /* Inquiry form */
+        .inquiry-form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .inquiry-form h2 {
+            font-size: 1.8em;
+            color: #008000;
+            margin-bottom: 20px;
+        }
+        
+.inquiry-form {
+    max-width: 400px;
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* form */
+.inquiry-form h2 {
+    font-size: 1.5em;
+    color: #008000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inquiry-form input[type="text"],
+.inquiry-form input[type="email"],
+.inquiry-form select {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+
+.inquiry-form div {
+    margin-bottom: 15px;
+}
+
+.inquiry-form label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+}
+
+.inquiry-form input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #008000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.inquiry-form input[type="button"]:hover {
+    background-color: #006600;
+}
+        
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Agri-Business Forum for Sustainable Products</h1>
+    </div>
+    <h3 style="font-size: 1.1em; color: #333; line-height: 1.6; padding: 20px; text-align: justify;">Reusing sustainable products is essential in promoting environmental conservation and reducing waste.
+        By choosing items designed for repeated use, such as reusable water bottles, organic shopping bags, and eco-friendly cleaning products, 
+        we can significantly cut down on single-use plastic and other disposable materials that contribute to pollution.
+        Sustainable products also require fewer resources to produce over time, lessening the strain on natural resources and reducing greenhouse gas emissions. 
+        This shift towards reusability helps protect ecosystems, promotes a healthier environment,
+         and supports long-term sustainability. Additionally, reusing sustainable products fosters a culture of environmental responsibility, 
+         encouraging individuals and communities to make more mindful choices that positively impact both the planet and future generations.</h3>
+
+    <!-- Product Section -->
+    <div class="product-section">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="images/b2.jpeg" alt="Reusable Water Bottle">
+            <div class="product-info">
+                <h2>Reusable Water Bottle</h2>
+                <p>Reduce single-use plastic waste with our reusable water bottle.</p>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="images/b4.jpeg" alt="Eco-friendly Cleaning Products">
+            <div class="product-info">
+                <h2>Eco-friendly Cleaning Products</h2>
+                <p>Non-toxic and biodegradable cleaning products for a healthier home.</p>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="images/botle1.jpeg" alt="Organic Shopping Bags">
+            <div class="product-info">
+                <h2>Organic Shopping Bags</h2>
+                <p>Reusable shopping bags made from organic materials, reducing plastic usage.</p>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="images/b3.jpeg" alt="Compost Bin">
+            <div class="product-info">
+                <h2>Compost Bin</h2>
+                <p>Convert food scraps into compost, perfect for sustainable gardening.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Impact Table Section -->
+    <div class="table-section">
+        <h2>Impact on the Community</h2>
+        <table class="table">
+            <tr>
+                <th>Product</th>
+                <th>Potential Savings</th>
+                <th>Carbon Footprint Reduction</th>
+            </tr>
+            <tr>
+                <td>Reusable Water Bottle</td>
+                <td>Up to 500 single-use bottles per year</td>
+                <td>0.5 kg CO₂ per year</td>
+            </tr>
+            <tr>
+                <td>Eco-friendly Cleaning Products</td>
+                <td>Up to 10 kg chemical waste per year</td>
+                <td>2 kg CO₂ per year</td>
+            </tr>
+            <tr>
+                <td>Organic Shopping Bags</td>
+                <td>Up to 200 plastic bags per year</td>
+                <td>0.3 kg CO₂ per year</td>
+            </tr>
+            <tr>
+                <td>Compost Bin</td>
+                <td>Reduces landfill waste by 20%</td>
+                <td>1 kg CO₂ per year</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Inquiry Form Section -->
+    <div class="inquiry-form">
+        <h2>Get in Touch With Us</h2>
+        <form action="">
+            <input type="text" name="name" placeholder="Enter name">
+            <input type="email" name="email" placeholder="Enter your email">
+            <div>
+                <input type="radio" name="sex" value="Male"> Male <br> 
+                <input type="radio" name="sex" value="Female"> Female
+            </div>
+            <select name="country">
+                <option value="Uganda">Uganda</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="DRC Congo">DRC Congo</option>
+            </select>
+            <label>
+                <input type="checkbox"> Accept to get notifications from us..... <br> <br>
+            </label>
+            <input type="button" value="Send">
+        </form>
+    </div>
+</body>
+</html>
